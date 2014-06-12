@@ -15,6 +15,6 @@ func init() {
 }
 
 //获取唯一的值
-func GetUnique() {
+func GetUnique() int{
   return <-num
 }
